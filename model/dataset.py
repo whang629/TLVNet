@@ -5,7 +5,6 @@ from os import listdir
 from os.path import join
 from PIL import Image, ImageOps
 
-
 def is_image_file(filename):
     return any(filename.endswith(extension) for extension in [".png", ".jpg", ".bmp"])
 
